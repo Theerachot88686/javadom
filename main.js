@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let count = 0;
   
     incButton.addEventListener("click", function () {
-      if (count < 999999999999) {
+      if (count < 99999) {
         count++;
         updateNumber();
       }
